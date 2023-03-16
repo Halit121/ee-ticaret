@@ -1,0 +1,159 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#MainBaşlik {
+  background-image: url("../image/spy.jpg");
+  height: 550px;
+}
+#MainBaşlik {
+  padding-top: 15rem;
+}
+
+#MainBaşlik h1 {
+  font-size: xxx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 2rem;
+  color: white;
+}
+
+#MainBaşlik a {
+  color: white;
+  background-color: #ff7f27;
+
+  margin-left: 5rem;
+  font-size: x-large;
+  border: 2px solid #ff7f27;
+  border-radius: 1rem;
+  align-items: center;
+
+  position: absolute;
+  margin-top: 0rem;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+#MainBaşlik button:hover {
+  opacity: 0.9;
+}
+
+#Başlik2 {
+ text-align: center;
+  color: white;
+  margin-top: 3rem;
+}
+
+
+
+.FooterB ul li {
+  list-style: none;
+  color: #ff7f27;
+ 
+}
+
+.FooterB ul li:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.FooterB h5 {
+  color: #ff7f27;
+}
+
+.FooterB i {
+  color:#ff7f27;
+  
+  margin-top: 4rem;
+}
+
+.FooterB i:hover {
+  opacity: 0.7;
+}
+
+h5:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.FooterB{
+    padding-top: 1rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0);
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+  
+ 
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+
+
+
